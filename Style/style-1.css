@@ -87,7 +87,7 @@ body {
 
 .in-highlight::before {
     content: '';
-    background: #fed5cd;
+    background: #d3ccff;
     position: absolute;
     left: 0;
     right: -2px;
@@ -837,6 +837,7 @@ footer .in-footer-socials i {
         height: 0;
     }
 }
+
 @keyframes hideLoader {
     0% {
         width: 100%;
@@ -868,20 +869,20 @@ body>div.in-loader div {
     width: 1rem;
     height: 1rem;
     margin: 2rem 0.3rem;
-    background: #fd6a4f;
+    background: #4629ff;
     border-radius: 50%;
     -webkit-animation: 0.9s bounce infinite alternate;
-            animation: 0.9s bounce infinite alternate;
+    animation: 0.9s bounce infinite alternate;
 }
 
 body>div.in-loader div:nth-child(2) {
     -webkit-animation-delay: 0.3s;
-            animation-delay: 0.3s;
+    animation-delay: 0.3s;
 }
 
 body>div.in-loader div:nth-child(3) {
     -webkit-animation-delay: 0.6s;
-            animation-delay: 0.6s;
+    animation-delay: 0.6s;
 }
 
 body:not(.loaded)>div.in-loader {
@@ -894,7 +895,7 @@ body:not(.loaded) {
 
 body.loaded>div.in-loader {
     -webkit-animation: hideLoader 0.5s linear 0.5s forwards;
-            animation: hideLoader 0.5s linear 0.5s forwards;
+    animation: hideLoader 0.5s linear 0.5s forwards;
 }
 
 @-webkit-keyframes bounce {
@@ -1252,7 +1253,7 @@ a.in-generic-email:hover {
     position: fixed;
     right: 40px;
     bottom: 40px;
-    background-color: #fd6a4f;
+    background-color: #4629ff;
     border-radius: 50%;
     opacity: 0;
 }
@@ -1263,6 +1264,11 @@ a.in-generic-email:hover {
 
 a.in-totop {
     color: #fff;
+    text-decoration: none;
+}
+
+a.in-totop:hover {
+    color: #8573ff;
     text-decoration: none;
 }
 
@@ -7487,7 +7493,7 @@ readers do not read off random characters that represent icons */
 .in-profit-11 .uk-card-primary {
     background-color: rgba(139, 178, 217, 0.4);
     -webkit-backdrop-filter: blur(4px);
-            backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
 }
 
 .in-profit-11 .uk-card-primary .uk-button-primary {
